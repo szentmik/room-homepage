@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="item">
+      <nav>
+        <div class="nav-items">
+          <div><img class="menu-btn" src="images/icon-hamburger.svg" alt="menu"></div>
+          <div><img class="logo" src="images/logo.svg" alt="logo"></div>
+
+          <div class="nav-btn">
+            <div><img class="close-btn" src="images/icon-close.svg" alt="close"></div>
+            <div><a href="">Home</a></div>
+            <div><a href="">Shop</a></div>
+            <div><a href="">About</a></div>
+            <div><a href="">Contact</a></div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="item">
+      <div class="slide-container">
+        <!-- SLIDE SHOW start -->
+        <div class="slide-show">
+          <div>
+            <h1>Discover innovative ways to decorate</h1>
+            <p>We provide unmatched quality, comfort, and style for property owners across the country.
+              Our experts combine form and function in bringing your vision to life. Create a room in your
+              own style with our collection and make your property a reflection of you and what you love.</p>
+
+            <a class="shop-btn" href="">Shop now
+              <svg id="arrow" width="40" height="12" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+                  fill="#000" fill-rule="nonzero" />
+              </svg>
+            </a>
+          </div>
+
+          <div>
+            <h1>We are available all across the globe</h1>
+            <p> With stores all over the world, it's easy for you to find furniture for your home or place of
+              business.
+              Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+              store locator. Any questions? Don't hesitate to contact us today.</p>
+
+              <a class="shop-btn" href="">Shop now
+                <svg id="arrow" width="40" height="12" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+                    fill="#000" fill-rule="nonzero" />
+                </svg>
+              </a>
+          </div>
+
+          <div>
+            <h1>Manufactured with the best materials</h1>
+            <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced
+              technology
+              to ensure that every product is made as perfect and as consistent as possible. With three decades of
+              experience in this industry, we understand what customers want for their home and office.</p>
+
+              <a class="shop-btn" href="">Shop now
+                <svg id="arrow" width="40" height="12" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+                    fill="#000" fill-rule="nonzero" />
+                </svg>
+              </a>
+          </div>
+
+          <!-- SLIDE SHOW end -->
+        </div>
+        <div class="arrows">
+          <div onclick=plusSlide(-1)>
+            <img src="images/icon-angle-left.svg" alt="left">
+          </div>
+          <div onclick=plusSlide(1)>
+            <img src="images/icon-angle-right.svg" alt="right">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item"></div>
+    <div class="item">
+      <div>
+        <h2>About our furniture</h2>
+        <p> Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </div>
+    </div>
+    <div class="item"></div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Adam Szentmiklossy</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
