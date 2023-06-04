@@ -164,6 +164,7 @@ nav {
 
 .arrows>div {
     background-color: #000000;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
